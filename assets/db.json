@@ -1,0 +1,184 @@
+{
+  "app_name": "Quizzy",
+  "app_icon": "assets/onboarding_1.png",
+  "cover": "assets/splash.png",
+  "main_color": "#FF9F98",
+  "contact": "contact@email.com",
+  "about": "path_to",
+  "privacy": "path_to",
+  "terms": "path_to",
+  "adNetworks": {
+    "adMob": {
+      "enabled": true,
+      "order": 1,
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "bannerAdUnitId": "ca-app-pub-3940256099942544/6300978111",
+      "nativeAdUnitId": "ca-app-pub-3940256099942544/2247696110",
+      "interstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712"
+    },
+    "appLovin": {
+      "enabled": true,
+      "order": 2,
+      "sdkKey": "YOUR_APPLOVIN_SDK_KEY",
+      "bannerAdUnitId": "YOUR_APPLOVIN_BANNER_AD_UNIT_ID",
+      "nativeAdUnitId": "YOUR_APPLOVIN_NATIVE_AD_UNIT_ID",
+      "interstitialAdUnitId": "YOUR_APPLOVIN_INTERSTITIAL_AD_UNIT_ID"
+    },
+    "unityAds": {
+      "enabled": false,
+      "order": 3,
+      "gameId": "YOUR_UNITY_GAME_ID",
+      "bannerPlacementId": "YOUR_UNITY_BANNER_PLACEMENT_ID",
+      "nativePlacementId": "YOUR_UNITY_NATIVE_PLACEMENT_ID",
+      "interstitialPlacementId": "YOUR_UNITY_INTERSTITIAL_PLACEMENT_ID"
+    },
+    "metaAudienceNetwork": {
+      "enabled": true,
+      "order": 4,
+      "bannerPlacementId": "YOUR_META_BANNER_PLACEMENT_ID",
+      "nativePlacementId": "YOUR_META_NATIVE_PLACEMENT_ID",
+      "interstitialPlacementId": "YOUR_META_INTERSTITIAL_PLACEMENT_ID"
+    }
+  },
+  "intro": [
+    {
+      "title": "Title 1",
+      "description": "Description 1",
+      "icon": "assets/onboarding_1.png"
+    },
+    {
+      "title": "Title 2",
+      "description": "Description 2",
+      "icon": "assets/onboarding_2.png"
+    },
+    {
+      "title": "Title 3",
+      "description": "Description 3",
+      "icon": "assets/onboarding_3.png"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Title",
+      "icon": "assets/onboarding_2.png",
+      "quizQuestions": [
+        {
+          "question": "In Surah Al-Fatiha, how do we ask Allah for guidance?",
+          "asset": "assets/quran.jpeg",
+          "options": [
+            "Guide us to the straight path",
+            "Forgive us our sins",
+            "Give us abundant wealth",
+            "Grant us success in life"
+          ],
+          "correct_option": "Guide us to the straight path"
+        },
+        {
+          "question": "This is example of a simple quiz question 2..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 3..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 4..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 5..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "icon": "assets/onboarding_2.png",
+      "quizQuestions": [
+        {
+          "question": "This is example of a simple quiz question 1..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 2..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 3..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 4..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        },
+        {
+          "question": "This is example of a simple quiz question 5..",
+          "asset": "assets/onboarding_1.png",
+          "options": [
+            "Answer example 1",
+            "Answer example 2",
+            "Answer example 3",
+            "Answer example 4"
+          ],
+          "correct_option": "Answer example 1"
+        }
+      ]
+    }
+  ]
+}
